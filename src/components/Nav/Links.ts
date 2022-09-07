@@ -54,7 +54,7 @@ interface ILinks {
 export const navLinks: ILinks = {
 	defi: {
 		main: [
-			{ name: 'Yields', path: '/yields', icon: Percent, mobileOnly: true },
+			// { name: 'Yields', path: '/yields', icon: Percent, mobileOnly: true },
 			{ name: 'Stablecoins', path: '/stablecoins', icon: DollarSign, mobileOnly: true },
 			{ name: 'Overview', path: '/', icon: TrendingUp },
 			{ name: 'Chains', path: '/chains', icon: Link },
@@ -63,7 +63,7 @@ export const navLinks: ILinks = {
 			{ name: 'Airdrops', path: '/airdrops', icon: CloudDrizzle },
 			{ name: 'Oracles', path: '/oracles', icon: Shield },
 			{ name: 'Forks', path: '/forks', icon: Share2 },
-			{ name: 'Liquidations', path: '/liquidations/eth', icon: Droplet, newTag: true },
+			// { name: 'Liquidations', path: '/liquidations/eth', icon: Droplet, newTag: true },
 			{ name: 'Watchlist', path: '/watchlist', icon: Bookmark },
 			{ name: 'Top Protocols', path: '/top-protocols', icon: Map },
 			{ name: 'Categories', path: '/categories', icon: RefreshCcw },

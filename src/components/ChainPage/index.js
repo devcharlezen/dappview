@@ -238,13 +238,13 @@ function GlobalPage({
 				}}
 			/>
 
-			<Panel as="p" style={{ textAlign: 'center', margin: '0', display: 'block' }}>
+			{/* <Panel as="p" style={{ textAlign: 'center', margin: '0', display: 'block' }}>
 				<span>New </span>{' '}
 				<BasicLink style={{ textDecoration: 'underline' }} href="/liquidations/eth">
 					liquidation levels dashboard
 				</BasicLink>
 				<span> is live!</span>
-			</Panel>
+			</Panel> */}
 
 			<ChartAndValuesWrapper>
 				<BreakpointPanels>
