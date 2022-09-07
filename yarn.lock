@@ -3347,7 +3347,7 @@ progress@^2.0.0:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-prop-types@^15.0.0, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.0.0, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -3527,6 +3527,13 @@ react-markdown@^8.0.3:
     unified "^10.0.0"
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
+
+react-paginate@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/react-paginate/-/react-paginate-8.0.0.tgz#b03b4ec221bffd8ecb16dd4c1295c33f8c6fd3df"
+  integrity sha512-l5uNYWqVIhFBljQoyLuMnZ8ykCdoTz6aYfg9+fUdtWy/H9rELBgVBPEA99jVpTsBxqAxXKBZ/sdDrdN4b0hsvg==
+  dependencies:
+    prop-types "^15.6.1"
 
 react-redux@^7.2.4:
   version "7.2.8"
