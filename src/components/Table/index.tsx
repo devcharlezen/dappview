@@ -247,9 +247,9 @@ function Table({ columns = [], data = [], align, gap, pinnedRow, ...props }: ITa
 	
 	{displayData}
 	<div className="paginateBox">
-	<ReactPaginate  
-		previousLabel={"Previous"}
-		nextLabel={"Next"}
+	<ReactPaginate   
+		previousLabel={"<<"}
+		nextLabel={">>"}
 		pageCount={pageCount}
 		onPageChange = {changePage}
 		containerClassName= {"paginationBttns"}
@@ -258,7 +258,10 @@ function Table({ columns = [], data = [], align, gap, pinnedRow, ...props }: ITa
 		disabledClassName = {"paginationDisabled"}
 		activeClassName = {"paginationActive"}
     />
+
 	</div>
+	
+	
 
    </Wrapper>
 		
@@ -347,5 +350,3 @@ export * from './Columns'
 export * from './utils'
 
 export default Table
-
-
